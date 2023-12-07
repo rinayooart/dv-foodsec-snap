@@ -1,0 +1,677 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>US Food Insecurity and Food Stamps</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet"
+		type="text/css" />
+	<link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/footer.js"></script>
+	<style>
+		.menu-index {
+			color: rgb(255, 255, 255) !important;
+			opacity: 1 !important;
+			font-weight: 700 !important;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- <div class="menu-container"></div> -->
+	<div class="content-container">
+		<!-------------------------------------------------------------------------------------------->
+		<!--Start Header-->
+		<div class="banner"
+			style="background: url('img/Food-insecurity.png') no-repeat center; background-size: cover; height: 300px;">
+		</div>
+		<div class="banner">
+			<div class="banner-table flex-column">
+				<div class="flex-row">
+					<div class="flex-item flex-column">
+						<!-- <h2 class="add-top-margin-small">This is the header area</h2> -->
+						<p class="text">
+
+							<i>
+								The first essential component of social justice is adequate food for all mankind. Food
+								is the moral right of all who are born into this world.
+							</i>
+							<br>
+							~ Norman Borlaug, biologist and humanitarian
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Header-->
+		<!-------------------------------------------------------------------------------------------->
+		<div class="content">
+			<div class="content-table flex-column">
+				<!-------------------------------------------------------------------------------------------->
+				<!--Start Intro-->
+
+				<div class="flex-row">
+					<!-- <div class="flex-item flex-column">
+                        <img class="image" src="img/dummay-img.png">
+                    </div> -->
+					<div class="flex-item flex-column">
+
+						<h1 style="text-align: center;">
+							USA Food Insecurity and Food Stamps
+
+						</h1>
+
+
+					</div>
+				</div>
+
+				<hr>
+				<div class="flex-row">
+					<!-- <div class="flex-item flex-column">
+                        <img class="image" src="img/dummay-img.png">
+                    </div> -->
+					<div class="flex-item flex-column">
+						<p class="text " style="font-size: 20px;">
+							<br> <b>Project</b> - CS 6730 : Data Visualization Principles<br><br>
+							<b>Our Team</b><br> Rina Yoo, ryoo31@gatech.edu<br> Santosh Sinduja Sankara Narayanan,
+							snarayanan92@gatech.edu<br> Shiqin Zeng, zsq123@gatech.edu<br> Yixing Yao,
+							yyao372@gatech.edu<br>
+							<br> <b>College</b>
+							<br>Georgia Institute of Technology
+
+							<br>
+
+						</p>
+					</div>
+				</div>
+				<div class="flex-row">
+					<div class="flex-item flex-column">
+
+						<h3>Table of Content</h3>
+						<ul>
+							<li><a href="#the-problem">The Problem</a></li>
+							<li><a href="#food-insec">Food Insecurity Prevalence and SNAP benefits by State</a></li>
+							<li><a href="#food-stamp">Who Receives Food Stamps?</a></li>
+							<li><a href="#food-stamp-race">Who Receives Food Stamps (By Race)?</a></li>
+							<li><a href="#workstat-dis">Employment Status and Disability</a></li>
+							<li><a href="#case-study">Case Study: Georgia County Food Stamp Population</a></li>
+							<li><a href="#overall-static">Who is the Most Disadvantaged?</a></li>
+							<li><a href="#conclusion">Conclusion</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--End Intro-->
+				<!-------------------------------------------------------------------------------------------->
+				<!--Start Text Only-->
+				<div class="flex-row">
+					<div class="flex-item flex-column">
+						<h2 id="the-problem">The Problem</h2>
+						<hr>
+						<p>
+							What does it mean to be food-insecure? People who are food insecure lack consistent and
+							affordable access to food. To put it in perspective, it could mean facing immense pressure
+							and anxiety to find where the next meal is coming from. It could mean having
+							to come back to your family and having to tell them there isn't going to be dinner tonight.
+							And in the U.S., there are <strong><span style="color: rgb(231, 0, 0);"> 44,000,000 people
+								</span></strong> facing this exact situation.
+
+							<br>
+							<br> SNAP, also known as food stamps, is the government’s largest nutrition benefit program.
+							Yet the benefits only provide about
+							<strong><span style="color: rgb(231, 0, 0);">
+									$1.40 per person per meal</span></strong>, which is not enough to provide healthy
+							sustenance for any individual.
+							<br>
+							<br>Not surprisingly, the COVID-19 pandemic further exacerbated the problem of food
+							insecurity with the pandemic-induced economic difficulties and the disruption of the food
+							supply chain. Loss of income from unemployment caused
+							by the pandemic pushed already vulnerable families into more severe food insecurity.
+							<br>
+							<br> We analyzed the Food Insecure and Food Stamp participant demographics from 2010 to 2022
+							in order to investigate the patterns that might correlate to food insecurity and to
+							highlight populations that need more support.
+						</p>
+					</div>
+				</div>
+				<!--End Text Only-->
+				<!-------------------------------------------------------------------------------------------->
+				<!--Start Text with Buttons-->
+				<div class="flex-row">
+					<div class="flex-item flex-column">
+						<h2 id="food-insec">Food Insecurity Prevalence and SNAP benefits by State</h2>
+						<hr>
+						<p class="text">
+							Food insecurity rates in the USA vary widely among states, depending on the characteristics
+							of their populations, availability of social services, and economic health. Each state has
+							its own mix of people with different incomes, education levels, and
+							types of jobs. These factors can affect how vulnerable a community is to not having enough
+							nutritious food. For example, states with a diverse population or specific economic
+							challenges might face more difficulties in ensuring
+							everyone has access to sufficient food. Households in the South and Midwest are more
+							likelperience food insecurity than those on the coasts.
+							<br>
+							<br> Secondly, the policies that states put in place and their economic conditions also play
+							a big role. States with strong social safety nets and supportive policies can help protect
+							people from food insecurity during tough
+							times. The most food-insecure state following the impacts of COVID-19 is Mississippi. An
+							important factor that contributed to Mississippi’s high food insecurity is the fact that the
+							state of Mississippi did not extend emergency
+							SNAP allotments through September 2020 (peak Covid period), a choice that put more families
+							with burdened budgets at risk of hunger in the coming years.
+							<br>
+							<br> The SNAP benefits chart clearly depicts some discrepancies for the highly disadvantaged
+							southern states where the benefits do not reach the food insecure population completely.
+							<br>
+							<br> Explore the hexmap to reveal each state's position in the bar chart. Select a year to
+							witness the dynamic shifts in food insecurity percentages, portrayed in the diverging bar
+							chart. Click on the up or down arrows to dive
+							deeper by sorting the barchart to witness the varying prevalence and food SNAP benefits
+							across USA states. The overlap clearly portrays each state’s surplus and shortfall in
+							providing benefits to the state’s population.
+						</p>
+
+						<div class="ourImageEmbed">
+
+							<div class='tableauPlaceholder' id='viz1701824500610' style='position: relative'>
+								<noscript><a href='#'><img alt='final '
+											src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fs&#47;fs_state&#47;final&#47;1_rss.png'
+											style='border: none' /></a></noscript><object class='tableauViz'
+									style='display:none;'>
+									<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+									<param name='embed_code_version' value='3' />
+									<param name='site_root' value='' />
+									<param name='name' value='fs_state&#47;final' />
+									<param name='tabs' value='no' />
+									<param name='toolbar' value='yes' />
+									<param name='static_image'
+										value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fs&#47;fs_state&#47;final&#47;1.png' />
+									<param name='animate_transition' value='yes' />
+									<param name='display_static_image' value='yes' />
+									<param name='display_spinner' value='yes' />
+									<param name='display_overlay' value='yes' />
+									<param name='display_count' value='yes' />
+									<param name='language' value='en-GB' />
+									<param name='filter' value='publish=yes' />
+								</object>
+							</div>
+							<script type='text/javascript'>
+								var divElement = document.getElementById('viz1701824500610');
+								var vizElement = divElement.getElementsByTagName('object')[0];
+								if (divElement.offsetWidth > 800) {
+									vizElement.style.width = '1200px';
+									vizElement.style.height = '900px';
+								} else if (divElement.offsetWidth > 500) {
+									vizElement.style.width = '1200px';
+									vizElement.style.height = '900px';
+								} else {
+									vizElement.style.width = '1250px';
+									vizElement.style.height = '950px';
+								}
+								var scriptElement = document.createElement('script');
+								scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+								vizElement.parentNode.insertBefore(scriptElement, vizElement);
+							</script>
+							<br>
+							<br>
+						</div>
+					</div>
+
+
+					<!--End Text with Buttons-->
+					<!-------------------------------------------------------------------------------------------->
+					<!--Start Text with Images and Image buttons-->
+					<div class="flex-row">
+						<div class="flex-item flex-column">
+							<h2 id="food-stamp">Who Receives Food Stamps?</h2>
+							<hr>
+							<p class="text">
+								You may wonder whom food stamps help. Most people would assume they go to households
+								below the poverty line, right?
+								<br>
+								<br> The graph below shows the percentage of food stamps that go to households below and
+								above the poverty line per state per year. Hover on any state to see particular details
+								of a year. You can see both the yearly cross-state
+								differences and in-state differences.
+								<br>
+								<br>
+							</p>
+							<div class="ourImageEmbed">
+								<div class='tableauPlaceholder' id='viz1701910788181' style='position: relative'>
+									<noscript><a href='#'><img alt='Dashboard 1 '
+												src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;Geovis-gridlines_17019091978220&#47;Dashboard1&#47;1_rss.png'
+												style='border: none' /></a></noscript><object class='tableauViz'
+										style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='site_root' value='' />
+										<param name='name' value='Geovis-gridlines_17019091978220&#47;Dashboard1' />
+										<param name='tabs' value='no' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image'
+											value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;Geovis-gridlines_17019091978220&#47;Dashboard1&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+										<param name='filter' value='publish=yes' />
+									</object>
+								</div>
+								<script
+									type='text/javascript'>                    var divElement = document.getElementById('viz1701910788181'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+							</div>
+							<p class="text">
+
+								<br>
+								<br>
+								Many states have an upward tick towards the end of their corresponding graph, which
+								signifies the number of people below the poverty line receiving food stamps increased.
+								This can be attributed to the significant economic impacts of the 2020 COVID-19
+								pandemic.
+								The pandemic led to widespread disruptions in various sectors, causing a ripple effect
+								on employment, income, and overall economic stability. But other than this, there is an
+								overall downward trend across all states
+								throughout the years.
+								This means people below the poverty line are receiving less and less SNAP
+								benefits. What
+								does it really mean? Is the Food
+								Stamps program doing a worse job? You might want to
+								see more details.
+
+								<br>
+								<br>
+								Hover over <b> CA, NY, GA, TX, MA, ME, </b> or <b>RI</b> to see how many households
+								below
+								poverty line receive or do not receive food stamps.
+								Surprisingly, there are more families below the poverty line not receiving
+								food stamps. This
+								is especially obvious for California. This is a crucial insight into the
+								food stamps program
+								and brings up the question of what might hinder families from receiving food
+								stamps.
+							</p>
+						</div>
+					</div>
+
+					<!--End Text with Images and Image buttons-->
+					<!-------------------------------------------------------------------------------------------->
+					<!--Start Text around Image-->
+					<div class="flex-row">
+						<div class="flex-item flex-column">
+							<h2 id="food-stamp-race">Who Receives Food Stamps (By Race)?</h2>
+							<hr>
+							<p class="text">
+								In 2022, the United States had a total of 131.2 million households. To contextually
+								understand how race might play a role in food insecurity and Food Stamps, the following
+								image provides three visualizations.
+							<ol>
+								<li>
+									The first is a map of households
+									receiving Food Stamps by state. The darker hue indicates which state has a larger
+									percentt of the population relying on SNAP.
+								</li>
+								<li>
+									The donut chart provides an overview of the race distribution for the
+									entire population of households.*
+								</li>
+								<li>
+									The circle view reveals the race distribution more specifically by county. *
+								</li>
+							</ol>
+
+
+							Use the filter labeled "Household" on the left and also click on the individual state on the
+							map to see how the
+							second and third charts' distributions change per state.
+							<br>
+							Note that states and
+							counties with diverse races will show up in multiple race categories.
+							<br>
+							</p>
+							<div class="ourImageEmbed">
+								<div class='tableauPlaceholder' id='viz1701904170750' style='position: relative'>
+									<noscript><a href='#'><img alt='Dashboard 1 '
+												src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ri&#47;rinaRaceagain&#47;Dashboard1&#47;1_rss.png'
+												style='border: none' /></a></noscript><object class='tableauViz'
+										style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='site_root' value='' />
+										<param name='name' value='rinaRaceagain&#47;Dashboard1' />
+										<param name='tabs' value='no' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image'
+											value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ri&#47;rinaRaceagain&#47;Dashboard1&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+										<param name='filter' value='publish=yes' />
+									</object>
+								</div>
+								<script
+									type='text/javascript'>                    var divElement = document.getElementById('viz1701904170750'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+							</div>
+							<p class="text">
+								<br>
+								States like New Mexico, Louisiana, and West Virginia exhibit the highest dependence on
+								SNAP. Despite this high dependence, the three do not seem to have a common pattern.
+								<br>
+								<br>
+								On the contrary, states like Idaho, Utah, and New Hampshire all had very low dependence
+								and a high ratio of the White population compared to other racial groups. Though this
+								might seem like a racial pattern is emerging, Louisiana also stands out with a
+								substantial White population count, showing that further investigation is necessary.
+								<br>
+								<br>
+								Largely populated states like California and Texas are both considered melting pot
+								states with many racial demographics and cultures. Clearly both have a mid-level
+								reliance on SNAP in comparison to other states.
+							</p>
+
+						</div>
+					</div>
+
+
+
+					<div class="flex-row">
+						<div class="flex-item flex-column">
+							<h2 id="workstat-dis">Employment Status and Disability</h2>
+							<hr>
+							<p class="text">
+								<!-- Explore the connection between the disability status and employment status in each state. Investigate how Supplemental Nutrition Assistance Program (SNAP) supports households. -->
+								Those who benefit from SNAP typically receive low wages, experience higher rates of
+								unemployment, and have less employment stability. Month-to-month employment and hours
+								worked are highly variable among those potentially affected by a SNAP work requirement.
+								While two-thirds of participants are children, elderly, and people with disabilities,
+								who are not expected to work, SNAP also helps workers, both to supplement low wages and
+								support them when they are between jobs. The
+								backdrop of frequent job turnover among low-income workers can make it difficult to
+								assess and quantify the work experiences of SNAP recipients.
+
+
+								<br><br>Americans living with disabilities face many obstacles in their everyday lives,
+								including higher than average rates of unemployment, lower than average incomes, and
+								costly medical expenses. On top of these obstacles,
+								food insecurity disproportionately affects people with disabilities. The problem of food
+								insecurity among households with people with disabilities would be far worse if not for
+								food stamps. From the visualization of the 2022 employment and disability status shown
+								below, it is
+								also apparent that some well established states have more food stamps to be given out to
+								households with disabled people than some smaller southern states.
+
+
+								<br><br>Select the type of household and the category(work/disability status) you want
+								to view. Explore how employment status and disability status affects the ability of a
+								household to receive food stamps by clicking on
+								the pie chart which shows the state wise and county wise breakdown in the stacked bar
+								chart and treemap respectively. You can also click on a U.S. state in the stacked bar
+								chart to show the corresponding county wise breakdown
+								in the treemap.
+
+							</p>
+							<div class="ourImageEmbed">
+
+								<div class='tableauPlaceholder' id='viz1701897959880' style='position: relative'>
+									<noscript><a href='#'><img alt='Dashboard 1 '
+												src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis2_17018975339120&#47;Dashboard1&#47;1_rss.png'
+												style='border: none' /></a></noscript><object class='tableauViz'
+										style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='site_root' value='' />
+										<param name='name' value='vis2_17018975339120&#47;Dashboard1' />
+										<param name='tabs' value='no' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image'
+											value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis2_17018975339120&#47;Dashboard1&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-GB' />
+										<param name='filter' value='publish=yes' />
+									</object>
+								</div>
+								<script type='text/javascript'>
+									var divElement = document.getElementById('viz1701897959880');
+									var vizElement = divElement.getElementsByTagName('object')[0];
+									if (divElement.offsetWidth > 800) {
+										vizElement.style.width = '1200px';
+										vizElement.style.height = '800px';
+									} else if (divElement.offsetWidth > 500) {
+										vizElement.style.width = '1200px';
+										vizElement.style.height = '800px';
+									} else {
+										vizElement.style.width = '1250px';
+										vizElement.style.height = '850px';
+									}
+									var scriptElement = document.createElement('script');
+									scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+									vizElement.parentNode.insertBefore(scriptElement, vizElement);
+								</script>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="flex-row">
+						<div class="flex-item flex-column">
+							<h2 id="case-study">Case Study: Georgia County Food Stamp Population</h2>
+							<hr>
+							<p>
+								As Georgia Tech students, we wanted to find common patterns of the 2022 Food Stamp
+								population
+								in our counties.
+							<ul>
+								<li>Households with only a female householder are often 3 to 8 times higher than
+									households with only male householders.
+								</li>
+								<li>Almost every county's radial bar chart shows that 50% of households using food
+									stamps have 1+ children under 18.
+								</li>
+								<li>Catoosa County, Whitfield County,Coweta County,and Bulloch County show a
+									particularly high percentage of food stamp households have 1+ Disabled person(s) in
+									the household. All display percentages over 60%.
+								</li>
+
+							</ul>
+							Use the map below to explore for other household attributes per Georgia county.
+							</p>
+							<div class="ourImageEmbed">
+								<div class='tableauPlaceholder' id='viz1701749084116' style='position: relative; '>
+									<noscript><a href='#'><img alt='Dashboard 2 '
+												src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ri&#47;rinaVisGACaseStudy&#47;Dashboard2&#47;1_rss.png'
+												style='border: none' /></a></noscript><object class='tableauViz'
+										style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='site_root' value='' />
+										<param name='name' value='rinaVisGACaseStudy&#47;Dashboard2' />
+										<param name='tabs' value='no' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image'
+											value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ri&#47;rinaVisGACaseStudy&#47;Dashboard2&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+										<param name='filter' value='publish=yes' />
+									</object>
+								</div>
+								<script type='text/javascript'>
+									var divElement = document.getElementById('viz1701749084116');
+									var vizElement = divElement.getElementsByTagName('object')[0];
+									if (divElement.offsetWidth > 800) {
+										vizElement.style.width = '1100px';
+										vizElement.style.height = '795px';
+									} else if (divElement.offsetWidth > 500) {
+										vizElement.style.width = '1100px';
+										vizElement.style.height = '795px';
+									} else {
+										vizElement.style.width = '1100px';
+										vizElement.style.height = '795px';
+									}
+									var scriptElement = document.createElement('script');
+									scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+									vizElement.parentNode.insertBefore(scriptElement, vizElement);
+								</script>
+
+							</div>
+							<br>
+							<br>
+						</div>
+					</div>
+
+					<div class="flex-row">
+						<div class="flex-item flex-column">
+							<h2 id="overall-static">Who is the Most Disadvantaged?</h2>
+							<hr>
+							<p>
+								<!-- To learn more information on Food Security and Food Stamps, we recommend visiting xyz website. Below is a final static overview of other attributes related to the demographics of Food Stamp users and Food Secure people. -->
+
+								This concise graph offers a snapshot of how various demographic factors intersect with
+								food security outcomes, providing valuable insights for informed discussions and
+								decision-making for initiatives like the Food SNAP.
+
+
+							</p>
+							<div class="ourImageEmbed">
+								<div class='tableauPlaceholder' id='viz1701832400171' style='position: relative'>
+									<noscript><a href='#'><img alt='Dashboard 1 '
+												src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ri&#47;rinaFoodSecureRanking&#47;Dashboard1&#47;1_rss.png'
+												style='border: none' /></a></noscript><object class='tableauViz'
+										style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='site_root' value='' />
+										<param name='name' value='rinaFoodSecureRanking&#47;Dashboard1' />
+										<param name='tabs' value='no' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image'
+											value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ri&#47;rinaFoodSecureRanking&#47;Dashboard1&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+										<param name='filter' value='publish=yes' />
+									</object>
+								</div>
+								<script type='text/javascript'>
+									var divElement = document.getElementById('viz1701832400171');
+									var vizElement = divElement.getElementsByTagName('object')[0];
+									if (divElement.offsetWidth > 800) {
+										vizElement.style.width = '1200px';
+										vizElement.style.height = '1027px';
+									} else if (divElement.offsetWidth > 500) {
+										vizElement.style.width = '1200px';
+										vizElement.style.height = '1027px';
+									} else {
+										vizElement.style.width = '1200px';
+										vizElement.style.height = '1027px';
+									}
+									var scriptElement = document.createElement('script');
+									scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+									vizElement.parentNode.insertBefore(scriptElement, vizElement);
+								</script>
+							</div>
+							<p>
+								<br>
+								The US has a total population of 331.9 million people. So while the overall food-secure
+								percentage is high, the lower percentages are still alarming. As shown, less educated
+								households, female head households, disabled and unemployed
+								households need the most help. In cases of disability, 42.5 million people are disabled,
+								which means 21,250,000 disabled people are still facing that anxiety and pressure to
+								simply survive.
+							</p>
+						</div>
+					</div>
+					<!--End Text around Image-->
+					<!-------------------------------------------------------------------------------------------->
+				</div>
+			</div>
+			<div class="flex-row">
+				<div class="flex-item flex-column">
+					<h2 id="conclusion">Conclusion</h2>
+					<hr>
+					<p>
+						<!-- To learn more information on Food Security and Food Stamps, we recommend visiting xyz website. Below is a final static overview of other attributes related to the demographics of Food Stamp users and Food Secure people. -->
+
+						The biggest differences in SNAP benefits by state are primarily a result of the economic
+						circumstances of each individual participant and the state in which they reside, rather than
+						anything really inherent to the program itself. Residents of states with
+						high poverty rates are naturally going to need SNAP more than others, and the program is geared
+						more toward keeping people afloat rather than tackling the systematic issues that allow poverty
+						to exist.
+
+						<br><br>SNAP has proved a major resource for millions of Americans in need, and it isn't the
+						only nutrition assistance program available. Despite all of this, as reported by the Center on
+						Budget and Policy Priorities in 2021, researchers
+						have estimated that SNAP benefits are approximately $11 per person below the amount needed to
+						pay for a weekly nutritious meal plan.
+
+						<br><br>This is especially apparent in higher-cost areas, where healthy diets are particularly
+						hard to afford for low-income families due to a higher cost of living. The fact that SNAP can be
+						more effective at counteracting poverty
+						in some states than others shows that more needs to be done to ensure our most economically
+						vulnerable citizens are provided for and protected.
+
+
+					</p>
+
+				</div>
+			</div>
+			<!--End Text around Image-->
+			<!-------------------------------------------------------------------------------------------->
+
+			<!-- <div class="banner"
+			style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 500px;">
+			<div class="banner-table flex-column" style="background-color: rgba(0, 0, 0, 0.5);">
+				<div class="flex-row">
+					<div class="flex-item flex-column">
+						<h2 class="add-top-margin-small">This is the banner area with photo</h2>
+						<p class="text">
+							Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
+							ultricies nisi vel
+							augue. Curabitur <a href="javascript:void(0)">ullamcorper ultricies nisi</a>. Nam eget dui.
+							Etiam rhoncus. Maecenas tempus, tellus eget
+							condimentum rhoncus.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+			<!--End Survey-->
+			<!-------------------------------------------------------------------------------------------->
+			<!--Start Credits-->
+			<div class="flex-row">
+				<div class="flex-item flex-column">
+					<br><br>
+				</div>
+			</div>
+			<!--End Credits-->
+			<!-------------------------------------------------------------------------------------------->
+		</div>
+	</div>
+	<div class="footer-container"></div>
+
+	</div>
+</body>
+
+</html>
